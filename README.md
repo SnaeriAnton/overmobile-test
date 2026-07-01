@@ -8,14 +8,11 @@
 
 ## Запуск
 
-Быстрый старт:
-https://docs.lunalabs.io/docs/playable/quickstart
+Быстрый старт: https://docs.lunalabs.io/docs/playable/quickstart
+Что бы собрать релизный билд: Tools-> Unit Playworks Plugin -> Build & upload -> Upload to Creative Library. Задаем имя в Concept Name и нажимаем Build project.
+После сборки билда у вас соберется билд, он лежит в корне проекта в папке LunaTemp/stage4/create-hub.
+Что бы посмотреть результат лучше сперва собрать Build Develop. Pаходим по пути LunaTemp/stage4/develop. В эту папку разархивировать собранный билд. Потом возвращаемся в Unity идем в Tools-> Unit Playworks Plugin -> Build & upload -> Build. Внизу с права в выпадающем списке выбираем Open In Browser. Нужно будет подождать несколько секунду.
 
-После сборки билда Luna в **Creative Library** у вас соберётся билд для отправки. Он лежит в корне проекта в папке:
-
-```text
-LunaTemp/stage4/create-hub
-```
 
 ## Методы оптимизации
 
